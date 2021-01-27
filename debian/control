@@ -1,0 +1,12 @@
+Source: ros-foxy-map-transformer
+Section: misc
+Priority: optional
+Maintainer: Geoff <geoff@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-foxy-ament-cmake-ros, ros-foxy-ament-lint-auto, ros-foxy-ament-lint-common, ros-foxy-yaml-cpp-vendor, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-map-transformer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-foxy-yaml-cpp-vendor, ros-foxy-ros-workspace
+Description: Transform points between maps with non-linear relationships
